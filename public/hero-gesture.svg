@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 1000" role="img" aria-labelledby="gesture-title gesture-desc">
+  <title id="gesture-title">Cut-paper open hand</title>
+  <desc id="gesture-desc">An original, angular white hand with five fingers fanned outward, heavy black cut-paper edges, and ink facets.</desc>
+  <defs>
+    <path id="hand-shape" d="M211 1024 195 906C184 826 188 781 160 742L90 642C66 608 71 568 99 546 127 524 159 532 183 555L245 618 186 336C176 286 191 259 220 251 251 242 278 265 286 310L331 493 324 157C323 107 344 80 377 79 411 77 435 103 436 147L442 480 492 94C498 51 530 30 562 41 595 52 606 83 598 124L529 495 651 251C671 211 700 199 729 217 758 235 762 268 740 307L603 584 722 524C758 506 788 515 802 542 821 573 807 610 769 631L637 716C581 752 555 815 557 889L563 1024Z"/>
+    <clipPath id="hand-clip"><use href="#hand-shape"/></clipPath>
+    <pattern id="ink-dots" width="18" height="18" patternUnits="userSpaceOnUse">
+      <circle cx="4" cy="4" r="3.4" fill="#0A0A0A"/>
+    </pattern>
+  </defs>
+
+  <!-- The offset undercut behaves like a separate black paper layer. -->
+  <use href="#hand-shape" transform="translate(19 18)" fill="#0A0A0A"/>
+  <use href="#hand-shape" fill="#F5F5F0" stroke="#0A0A0A" stroke-width="24" stroke-linejoin="round"/>
+
+  <g clip-path="url(#hand-clip)">
+    <!-- Large ink facets give the palm depth without soft shading. -->
+    <path d="M85 624 167 689 236 692 263 766 244 847 231 1024 153 1024 173 864 155 763Z" fill="#0A0A0A"/>
+    <path d="M565 620 638 692 591 766 550 835 546 1024 473 1024 490 869 508 787Z" fill="#0A0A0A"/>
+    <path d="M416 822 476 862 473 1024 371 1024Z" fill="url(#ink-dots)"/>
+    <path d="M240 341 281 442 309 569 279 567Z" fill="#0A0A0A"/>
+    <path d="M392 154 423 282 434 516 405 512Z" fill="#0A0A0A"/>
+    <path d="M551 130 566 183 503 507 480 500Z" fill="#0A0A0A"/>
+    <path d="M699 285 709 303 576 575 551 580Z" fill="#0A0A0A"/>
+    <path d="M732 568 770 568 650 639 609 651Z" fill="#0A0A0A"/>
+
+    <!-- Creases are broken, straight-edged cuts rather than drawn curves. -->
+    <path d="M234 675 289 715 309 782M320 568 354 611 356 689M458 545 427 609 440 675M537 601 488 660 476 719" fill="none" stroke="#0A0A0A" stroke-width="14" stroke-linecap="square" stroke-linejoin="bevel"/>
+    <path d="M264 832 310 857 328 930M346 749 390 783 399 836M562 733 519 765 504 815" fill="none" stroke="#0A0A0A" stroke-width="10" stroke-linecap="square"/>
+    <path d="M190 774 229 810 209 872 182 851ZM529 908 562 854 566 1008 518 1008Z" fill="#F5F5F0"/>
+  </g>
+
+  <!-- A few detached scraps make the silhouette read as layered cut paper. -->
+  <path d="M80 413 113 384 134 448 94 465Z" fill="#F5F5F0" stroke="#0A0A0A" stroke-width="13" stroke-linejoin="miter"/>
+  <path d="M766 395 812 370 792 435 752 453Z" fill="#F5F5F0" stroke="#0A0A0A" stroke-width="13" stroke-linejoin="miter"/>
+</svg>

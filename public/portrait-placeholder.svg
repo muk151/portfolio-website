@@ -1,0 +1,51 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 760 940" role="img" aria-labelledby="portrait-title portrait-desc">
+  <title id="portrait-title">Placeholder portrait silhouette</title>
+  <desc id="portrait-desc">An original, high contrast illustration of a person in an angular jacket, turning toward the left and adjusting their collar.</desc>
+  <defs>
+    <pattern id="dots" width="12" height="12" patternUnits="userSpaceOnUse">
+      <circle cx="2" cy="2" r="2.3" fill="#0A0A0A"/>
+    </pattern>
+    <clipPath id="face-clip">
+      <path d="M275 250 292 165 365 112 463 119 530 177 548 278 520 383 474 458 399 490 324 451 274 368Z"/>
+    </clipPath>
+    <clipPath id="coat-clip">
+      <path d="M68 940 86 760 133 644 244 569 326 550 390 613 477 533 565 542 660 630 733 940Z"/>
+    </clipPath>
+  </defs>
+
+  <!-- The white border keeps the cutout legible on red or black backgrounds. -->
+  <path d="M59 940 73 764 116 641 197 588 280 547 297 488 270 435 246 362 231 243 260 155 331 95 436 83 513 127 555 195 575 278 563 371 525 441 499 505 495 527 579 542 676 613 734 728 760 940Z" fill="#F5F5F0"/>
+  <path d="M87 940 98 767 142 659 230 594 313 561 317 509 277 436 250 352 249 256 282 165 345 115 432 109 504 146 544 204 554 285 538 363 503 432 469 483 469 547 560 560 648 631 706 745 734 940Z" fill="#0A0A0A"/>
+
+  <!-- Flat face planes and an uneven halftone patch suggest a portrait without a real likeness. -->
+  <path d="M275 250 292 165 365 112 463 119 530 177 548 278 520 383 474 458 399 490 324 451 274 368Z" fill="#F5F5F0"/>
+  <g clip-path="url(#face-clip)">
+    <path d="M425 96 577 134 580 490 414 514 457 413 478 328 466 245Z" fill="url(#dots)"/>
+    <path d="M283 168 364 103 449 106 512 143 487 212 440 229 386 214 356 254 310 262 271 314 255 230Z" fill="#0A0A0A"/>
+    <path d="M294 269 348 224 369 299 344 344 304 335Z" fill="#0A0A0A"/>
+    <path d="M470 225 532 187 551 282 526 326 482 295Z" fill="#0A0A0A"/>
+    <path d="M302 365 337 388 388 407 442 394 493 363 468 430 407 470 340 445Z" fill="#0A0A0A"/>
+    <path d="M337 329 375 315 394 321 364 336Z" fill="#0A0A0A"/>
+    <path d="M436 316 477 309 493 319 454 328Z" fill="#0A0A0A"/>
+    <path d="M403 340 393 380 421 383" fill="none" stroke="#0A0A0A" stroke-width="9" stroke-linecap="square"/>
+  </g>
+
+  <!-- Neck, shirt and asymmetrical jacket. -->
+  <path d="M333 447 388 480 459 454 464 566 393 618 313 552Z" fill="#F5F5F0"/>
+  <path d="M68 940 86 760 133 644 244 569 326 550 390 613 477 533 565 542 660 630 733 940Z" fill="#0A0A0A" stroke="#F5F5F0" stroke-width="15" stroke-linejoin="miter"/>
+  <g clip-path="url(#coat-clip)">
+    <path d="M541 528 734 642 793 951 591 956 550 797 490 684Z" fill="url(#dots)"/>
+    <path d="M147 615 278 554 344 654 262 807 111 865Z" fill="#F5F5F0"/>
+    <path d="M162 649 256 583 302 660 253 754 191 793Z" fill="#0A0A0A"/>
+    <path d="M466 544 570 553 557 747 445 818 395 630Z" fill="#F5F5F0"/>
+    <path d="M499 582 546 593 533 710 460 762 431 647Z" fill="#0A0A0A"/>
+    <path d="M324 559 388 613 462 557 441 748 391 927 323 735Z" fill="#F5F5F0"/>
+    <path d="M392 614 427 657 407 705 438 938 355 938 380 707 356 654Z" fill="#0A0A0A"/>
+    <path d="M88 909 241 840 294 885 272 978 53 978Z" fill="#F5F5F0"/>
+  </g>
+
+  <!-- A raised hand pulling the lapel adds movement to the silhouette. -->
+  <path d="M131 940 120 862 157 807 226 772 282 710 313 675 329 701 310 752 339 726 363 737 343 780 368 757 385 775 365 823 323 855 269 877 231 940Z" fill="#F5F5F0" stroke="#0A0A0A" stroke-width="15" stroke-linejoin="miter"/>
+  <path d="M180 814 242 785 284 738M217 838 285 807 337 764M242 862 307 837 347 803" fill="none" stroke="#0A0A0A" stroke-width="10" stroke-linecap="square"/>
+  <path d="M128 938 143 879 227 858 256 940Z" fill="#0A0A0A"/>
+</svg>

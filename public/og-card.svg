@@ -1,0 +1,13 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 630" role="img" aria-labelledby="title">
+  <title id="title">Command Select portfolio preview</title>
+  <rect width="1200" height="630" fill="#E5001C"/>
+  <path d="M0 0h780L560 630H0Z" fill="#F5F5F0"/>
+  <path d="M560 0h380L630 630H250Z" fill="#E5001C"/>
+  <path d="M820 0h380v630H600Z" fill="#0A0A0A"/>
+  <path d="M950 80 967 164 1050 110 993 184 1080 199 991 221 1030 307 953 251 881 305 916 222 830 201 917 180 868 111 937 162Z" fill="none" stroke="#F5F5F0" stroke-width="10"/>
+  <g font-family="Impact,Arial Black,sans-serif" font-weight="900">
+    <text x="72" y="255" font-size="118" fill="#0A0A0A" transform="rotate(-5 72 255)">COMMAND</text>
+    <text x="106" y="368" font-size="118" fill="#F5F5F0" transform="rotate(-5 106 368)" stroke="#0A0A0A" stroke-width="3">SELECT</text>
+    <text x="78" y="480" font-size="38" fill="#0A0A0A" letter-spacing="8">PORTFOLIO / YOUR NAME</text>
+  </g>
+</svg>
